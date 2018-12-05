@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/lr"
+    tools:context="com.adgvit.appathon2k18.appathon2k18.Developers">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Developers"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal"
+            android:background="@drawable/whitebox"
+            android:padding="10sp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shashank"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5sp"
+                android:layout_marginLeft="10sp"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/roboto_thin"
+                    android:textColor="#1A1A1A"
+                    android:text="Shashank Gutgutia"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/roboto_thin"
+                    android:textColor="#1A1A1A"
+                    android:text="Android Developer"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal"
+            android:background="@drawable/whitebox"
+            android:padding="10sp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/aryan"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5sp"
+                android:layout_marginLeft="10sp"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/roboto_thin"
+                    android:textColor="#1A1A1A"
+                    android:text="Aryan Navad"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/roboto_thin"
+                    android:textColor="#1A1A1A"
+                    android:text="Android Developer"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/whitebox"
+            android:orientation="horizontal"
+            android:padding="10sp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80sp"
+                android:layout_height="80sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/naman"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/roboto_thin"
+                    android:textColor="#1A1A1A"
+                    android:text="Naman Khurpia"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/roboto_thin"
+                    android:textColor="#1A1A1A"
+                    android:text="Developer+Designer"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:padding="4dp"
+
+            android:src="@drawable/backblack"
+            android:background="@null"
+
+
+            android:onClick="backHome"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+</LinearLayout>
